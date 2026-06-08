@@ -15,7 +15,6 @@ export default async function Dashboard() {
         <Suspense fallback={<SkeletonCard />}>
           <BentoGrid courses={courses} />
         </Suspense>
-        <SkeletonCard/>
       </main>
     </div>
   );

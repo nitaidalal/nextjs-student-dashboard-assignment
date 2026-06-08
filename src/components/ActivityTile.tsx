@@ -115,8 +115,7 @@ export default function ActivityTile() {
                 </span>
               ))}
             </div>
-
-\            <div className="flex flex-1 justify-between">
+           <div className="flex flex-1 justify-between">
               {contributionData.map((week, weekIndex) => (
                 <div key={weekIndex} className="flex flex-col gap-1">
                   {week.map((level, dayIndex) => (
